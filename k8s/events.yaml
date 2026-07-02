@@ -18,7 +18,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: events
-          image: ghcr.io/pon4ik7/quickticket-events:7baae5712a4b1b1798e7a49b6eda93466d9f00f2
+          image: ghcr.io/pon4ik7/quickticket-events:b155568a2301ceadd0a17d1f1a19c40ac0bf51f3
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
